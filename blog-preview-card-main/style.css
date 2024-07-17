@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Figtree-light';
+    src: url('./assets/fonts/static/Figtree-Light.woff2') format('woff2'),
+        url('./assets/fonts/static/Figtree-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree-LightItalic';
+    src: url('./assets/fonts/static/Figtree-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/static/Figtree-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url('./assets/fonts/static/Figtree-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/static/Figtree-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('./assets/fonts/static/Figtree-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/static/Figtree-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.F-light{
+    font-family: "Figtree-light";
+}
+
+.F-ExtraBold{
+    font-family: "Figtree-ExtraBold";
+}
+
+.F-LightItalic{
+    font-family: "Figtree-LightItalic";
+}
+
+.F-SemiBold{
+    font-family: "Figtree-SemiBold";
+}
+
+.App{
+    display:flex;
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrap-content{
+    padding: 22px 36px 22px 22px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+    width: 320px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.type{
+    margin-top: 12px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: medium;
+    font-weight:500;
+}
+
+.time{
+    padding: 22px 0;
+    font-weight: 700;
+}
+
+.title{
+    font-weight: 900;
+    font-size: large;
+    font-style: normal;
+    color: hsl(47, 88%, 63%);
+}
+
+.description{
+    padding: 12px 0;
+    opacity: .5;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+
+.img{
+    padding-right: 12px;
+    width: 36px;
+    height: 36px;
+}
