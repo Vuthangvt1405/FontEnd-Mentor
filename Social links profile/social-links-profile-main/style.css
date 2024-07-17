@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/') format('woff2'),
+        url('./assets/fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('./assets/fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url('./assets/fonts/Inter-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    line-height: 1; 
+}
+
+ 
+ .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.profile{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+}
+
+.profile-main{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    margin: auto;
+    background-color:  hsl(0, 0%, 12%);
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.profile-atup{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.font500{
+    font-size: medium;
+}
+
+.font700{
+    font-size: larger;
+}
+
+.font400{
+    font-size: small;
+}
+
+.InterBold{
+    font-family: "InterBold";
+    font-weight: bold;
+}
+
+.InterSemiBold{
+    font-family: "InterSemiBold";
+}
+
+.Inter{
+    font-family: "Inter";
+    font-size: small;
+}
+
+.avata{
+    padding: 26px
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+}
+
+.field{
+    padding: 12px;
+    font-size: small;
+    color: white;
+}
+
+.country{
+    padding: 10px;
+    color:  hsl(75, 94%, 57%);
+}
+
+.profile-atdown{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.navdiv {
+    position: relative;
+    margin: 6px;
+    width: 286px;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    border-radius: 24px;
+  }
+  
+  .navdiv a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center; 
+    line-height: 400%;
+  }
+
+  .navdiv:hover>a{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    border-radius: 24px;
+    /* padding:3px */
+  }
