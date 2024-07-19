@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'ws-italic';
+    src: url('./assets/fonts/WorkSans-Italic.woff2') format('woff2'),
+        url('./assets/fonts/WorkSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ws-regular';
+    src: url('./assets/fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('./assets/fonts/WorkSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ws-Bold';
+    src: url('WorkSans-Bold.woff2') format('woff2'),
+        url('WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ws-SemiBold';
+    src: url('./assets/fonts/WorkSans-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/WorkSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wsR{
+    font-family: "ws-Regular";
+}
+
+.wsI{
+    font-family: "ws-italic"
+}
+
+.wsSB{
+    font-family: "ws-SemiBold";
+}
+
+.wsB{
+    font-family: "ws-Bold";
+}
+
+.container{
+    background-color: hsl(275, 100%, 97%);
+    width: 100%;
+    height: 100vh;
+}
+
+.header-img{
+    width: 100%
+}
+
+.wrap-content{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    border-radius: 12px;
+    width: 600px;
+    background-color: white ;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.content-header{
+    display:flex;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+
+.star-icon{
+    padding: 4px 6px 4px 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.content-header-title{
+    font-size: 32px;
+    font-family: "ws-SemiBold";
+    font-weight: 800;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.content-body-item {
+    display: flex;
+    align-items: flex-end;
+    line-height: 12px;
+    width: 100%; /* Đảm bảo phần tử chiếm toàn bộ chiều rộng cha */
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.content-body-item .text {
+    margin-right: 12px
+}
+
+.minus-icon {
+    width: 16px;
+    height: 20px;
+    transform: translateY(4px);
+}
+
+
+.content-body-description{
+    margin: 22px 0;
+    text-align: left;
+    opacity: .6;
+    font-weight:100;
+    display:none;
+    transition: display 0.3s ease, opacity 0.3s ease;
+}
+
+.show{
+    display: block;
+}
+
+.content-body + .content-body {
+    border-top: 1px solid rgba(0,0,0,.1)
+}
+
+.text:hover{
+    color: hsl(292, 100%, 55%);
+}
+
