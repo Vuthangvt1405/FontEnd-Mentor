@@ -1,0 +1,196 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+.container{
+    display: flex;
+    background: hsl(0, 0%, 94%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    position: relative;
+    padding: 22px 60px ;
+    background: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 6px 6px 120px 6px;
+}
+
+.card__header{
+    display: flex;
+}
+
+.card__day,
+.card__month,
+.card__year{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 10px;
+    width: 100px;
+    margin: 8px;
+    border: 1px solid hsl(0, 0%, 86%);
+}
+
+.input:focus{
+    border: 1px solid hsl(259, 100%, 65%);
+    outline: none;
+}
+
+.card__header{
+    margin-bottom: 30px;
+    padding: 0 160px 42px 0;
+    border-bottom: 1px solid  hsl(0, 0%, 86%);
+}
+
+
+.icon{
+    position: absolute;
+    width: 46px;
+    height: 44px;
+    background-color: black;
+    border-radius: 100px;
+    padding: 10px;
+    right: 22px;
+    top: 102px;
+}
+
+.icon img{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.DOB__year__number,
+.DOB__year__character,
+.DOB__month__number,
+.DOB__month__character,
+.DOB__days__number,
+.DOB__days__character{
+  font-size: 90px;
+}
+
+.DOB__days__number,
+.DOB__month__number,
+.DOB__year__number{
+  color: hsl(259, 100%, 65%);
+}
+
+
+.DOB__year__character,
+.DOB__month__character,
+.DOB__days__character{
+  color: black; 
+}

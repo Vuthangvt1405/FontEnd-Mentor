@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card__header">
+        <div class="card__day poppins-regular">
+          <span>DAY</span>
+          <input class="input input__day" type="input">
+        </div>
+
+        <div class="card__month poppins-regular">
+          <span>MONTH</span>
+          <input class="input input__month" type="input">
+        </div>
+
+        <div class="card__year poppins-regular">
+          <span>YEAR</span>
+          <input class="input input__year" type="input">
+        </div>
+
+      </div>
+
+      <div class="icon">
+        <img src="./assets/images/icon-arrow.svg" alt="">
+      </div>
+
+
+      <div class="DOB">
+        <div class="DOB__year__number flex">
+          <span class="number-year poppins-bold">--</span>
+          <div class="DOB__year__character poppins-bold">years</div>
+        </div>
+        <div class="DOB__month__number flex">
+          <span class="number-month poppins-bold">--</span>
+          <div class="DOB__month__character poppins-bold">months</div>
+        </div>
+        <div class="DOB__days__number flex">
+          <span class="number-day poppins-bold">--</span>
+          <div class="DOB__days__character poppins-bold">days</div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
+<!-- Day
+DD
+
+Month
+MM
+
+Year
+YYYY
+
+-- years
+-- months
+-- days -->
